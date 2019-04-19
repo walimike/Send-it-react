@@ -1,4 +1,7 @@
 # SEND IT
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fe9e3a483c6748b08d7177daf56220ed)](https://app.codacy.com/app/walimike/Send-it-react?utm_source=github.com&utm_medium=referral&utm_content=walimike/Send-it-react&utm_campaign=Badge_Grade_Dashboard)
+
 ### Project Overview
 SendIT is a courier service that helps users deliver parcels to different destinations.
 SendIT provides courier quotes based on weight categories.
