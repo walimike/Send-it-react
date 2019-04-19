@@ -2,6 +2,8 @@
 ### Project Overview
 SendIT is a courier service that helps users deliver parcels to different destinations.
 SendIT provides courier quotes based on weight categories.
+### Badges
+[![Build Status](https://travis-ci.org/walimike/Send-it-react.svg?branch=master)](https://travis-ci.org/walimike/Send-it-react)
 ### Main features
 Users can create an account and log in.
 Users can create a parcel delivery order.
