@@ -1,0 +1,41 @@
+$primary-color: #DC143C;
+
+.regHeader {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.regButton{
+    background-color: #DC143C !important; 
+    float: left;
+}
+.styles_modal__gNwvD{
+    height: auto;
+    width: 40%;
+    border-radius: 5px;
+}
+
+form .waves-effect.waves-light.btn-small.login {
+    background-color: $primary-color;
+    color: white;
+    border-color: $primary-color;
+    margin-top: 25px;
+  }
+
+.formInput{
+    margin: 20px auto;
+    width: 80%;
+}
+
+.form{
+    margin-top: 50px;
+}
+.regButton{
+    background-color: #DC143C;; 
+}
+
+@media only screen and (max-width: 600px) {
+    .modal{
+        background-color: black;
+        width: 100%;
+    }
+  }
