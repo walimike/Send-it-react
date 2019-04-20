@@ -62,7 +62,9 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/runtime": "^7.4.3"
   },
   "dependencies": {
     "enzyme": "^3.9.0",
@@ -72,6 +74,15 @@
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "axios": "^0.18.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "react-loader": "^2.4.5",
+    "react-responsive-modal": "^3.6.0",
+    "react-test-renderer": "^16.8.6",
+    "react-toastify": "^5.0.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.3"
   }
 }

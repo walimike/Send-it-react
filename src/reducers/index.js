@@ -1,9 +1,7 @@
 import { combineReducers } from "redux";
+import registrationReducer from "./registrationReducer";
 
-const sampleReducer = (state, action) => {
-  return null;
-};
 
 export default combineReducers({
-  sampleReducer,
+  registrationReducer,
 });

@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
 class Header extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
         <div className='head-wrapper'>
@@ -10,7 +14,8 @@ class Header extends Component {
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down_">
             <li className='action-buttons'>
-            <a className="waves-effect waves-light btn-small join">Join</a>
+            <a className="waves-effect waves-light btn-small join"
+                onClick={this.props.openModal} >Join</a>
             <a className="waves-effect waves-light btn-small login">login</a>
             </li>
           </ul>
