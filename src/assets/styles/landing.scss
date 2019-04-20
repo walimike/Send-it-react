@@ -1,0 +1,113 @@
+$primary-color: #DC143C;
+
+nav {
+  .brand-logo {
+    padding-left: 15px;
+  }
+}
+
+nav .nav-wrapper > #nav-mobile {
+  width: 50%;
+  margin: auto;
+  > li > a {
+    color: $primary-color;
+  }
+}
+
+.action-buttons .waves-effect.waves-light.btn-small.join {
+    background-color: $primary-color;
+  }
+
+.action-buttons .waves-effect.waves-light.btn-small.login {
+    background-color: White;
+    color: $primary-color;
+    border-color: $primary-color;
+  }
+
+.head-wrapper {
+  height: 60px;
+}
+
+.app-logo {
+  > img {
+    width: 48px;
+    height: 48px;
+  }
+  font-size: 30px;
+  display: inline-flex;
+  -webkit-text-fill-color:$primary-color;
+}
+
+.action-buttons > a {
+  margin-left: 15px;
+}
+
+.nav-wrapper {
+  background-color: white;
+}
+
+.nav-top-wrapper {
+  background-color: white;
+  .sidenav-trigger {
+    color: $primary-color;
+  }
+}
+
+.carousel.carousel-slider.center {
+  height: 600px !important;
+}
+
+.carousel.carousel-slider .carousel-item > img {
+  width: 100%;
+}
+
+.carousel.carousel-slider.center .carousel-fixed-item.center {
+  .fixed-item-text {
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: x-large;
+    margin: 0 auto;
+    border-radius: 44px;
+    background-color: black;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+  position: absolute;
+  left: 50%;
+  top: 62%;
+  transform: translate(-50%, -50%);
+}
+
+.row .col.s12 {
+  text-align: center;
+  font-size: x-large;
+  padding: 20px;
+}
+
+.card .card-action {
+  display: -webkit-inline-box;
+}
+.card .card-action > div{
+  padding-right: 15px;
+}
+
+.card-description {
+  color: grey;
+}
+
+.card .card-content .card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.page-footer.custom {
+  background-color: $primary-color;
+
+  .row{
+    .px-2{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}

@@ -1,10 +1,9 @@
-
-import { combineReducers } from 'redux';
+import { combineReducers } from "redux";
 
 const sampleReducer = (state, action) => {
- return null;
+  return null;
 };
 
 export default combineReducers({
- sampleReducer,
+  sampleReducer,
 });
