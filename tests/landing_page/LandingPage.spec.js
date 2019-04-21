@@ -9,17 +9,31 @@ describe("NavBar", () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it("should open modal", () => {
+  it("should open signup", () => {
     const wrapper = shallow(<LandingPage />);
-    wrapper.instance().onOpenModal()
-    const expectedState = { open: true }
+    wrapper.instance().openSignUp()
+    const expectedState = { openLogIn: false, openSignUp: true }
     expect(wrapper.instance().state).toEqual(expectedState);
   });
 
-  it("should close modal", () => {
+  it("should close signup", () => {
     const wrapper = shallow(<LandingPage />);
-    wrapper.instance().onCloseModal()
-    const expectedState = { open: false }
+    wrapper.instance().closeSignUp()
+    const expectedState = {openLogIn: false, openSignUp: false }
+    expect(wrapper.instance().state).toEqual(expectedState);
+  });
+
+  it("should open login", () => {
+    const wrapper = shallow(<LandingPage />);
+    wrapper.instance().openLogIn()
+    const expectedState = { openLogIn: true, openSignUp: false  }
+    expect(wrapper.instance().state).toEqual(expectedState);
+  });
+
+  it("should close login", () => {
+    const wrapper = shallow(<LandingPage />);
+    wrapper.instance().closeLogIn()
+    const expectedState = { openLogIn: false, openSignUp: false  }
     expect(wrapper.instance().state).toEqual(expectedState);
   });
 });
