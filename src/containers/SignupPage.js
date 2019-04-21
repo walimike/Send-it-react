@@ -24,7 +24,6 @@ export class SignupContainer extends Component {
   };
 
   submitHandler = e => {
-    console.log(this.props.loading)
     e.preventDefault();
     if (this.state.password == this.state.password2) {
       const data = {
