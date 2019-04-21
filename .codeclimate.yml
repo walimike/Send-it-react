@@ -1,5 +1,5 @@
 version: "2"
-exclude_patterns:	exclude_patterns:
+exclude_patterns:	
  - "src/components/signUp/SignupForm.js"	 
  - "src/components/login/LoginForm.js"
  - "tests/"
