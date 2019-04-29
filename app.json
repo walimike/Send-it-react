@@ -1,0 +1,32 @@
+{
+    "name": "Send-it-react",
+    "scripts": {},
+    "env": {
+      "REACT_APP_CLIENT_ID": {
+        "required": true
+      },
+      "REACT_APP_CLOUD_NAME": {
+        "required": true
+      },
+      "REACT_APP_UPLOAD_PRESET": {
+        "required": true
+      },
+      "REACT_APP_FOLDER": {
+        "required": true
+      },
+      "REACT_APP_APP_ID": {
+        "required": true
+      }
+    },
+    "formation": {
+      "web": {
+        "quantity": 1
+      }
+    },
+    "addons": [],
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+    ]
+  }

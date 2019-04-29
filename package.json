@@ -14,8 +14,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --collectCoverage",
     "coverage": "react-scripts test -u --env=jsdom --coverage --coveragePathIgnorePatterns=src/index.js",
-    "heroku-postbuild": "npm run build ",
-    "heroku-prebuild": "npm install "
+    "heroku-postbuild": "npm run build "
   },
   "heroku-run-build-script": true,
   "repository": {
@@ -69,6 +68,7 @@
   "dependencies": {
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
+    "npm": "^6.9.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^6.0.1",

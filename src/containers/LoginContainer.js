@@ -20,7 +20,8 @@ import "../assets/styles/modal.scss";
         if (nextProps){
             this.setState({isLoading:false})
             if (nextProps.token) {
-            localStorage.setItem('token', nextProps.token);
+            sessionStorage.setItem('token', nextProps.token);
+            setTimeout(() => window.location.replace('/home'), 100);
         }}
       }
 
