@@ -9,7 +9,7 @@ class Header extends Component {
     return (
         <div className='head-wrapper'>
           <a href="#" className="app-logo">
-          <img src="../../assets/images/logo3.jpg" />
+          <img src="https://image.shutterstock.com/image-vector/running-man-postal-box-logomessenger-260nw-293379359.jpg" />
             <span>Send It</span>
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down_">

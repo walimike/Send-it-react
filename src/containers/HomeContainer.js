@@ -7,7 +7,14 @@ export default class HomeContainer extends Component {
   render() {
     return (
         <div>
-            <innerNavbar />
+            <nav>
+          <div className="nav-wrapper red">
+            <a href="#!" className="brand-logo left">Send it</a>
+            <ul className="right hide-on-med-and-down">
+              <li className="active"><a href="collapsible.html">Logout</a></li>
+            </ul>
+          </div>
+        </nav>
                 <div className="container">
         <div className="row">
         <div className="col s6">
