@@ -25,8 +25,6 @@ export class CreateParcelContainer extends Component {
 
       createParcels = (event) =>{
         event.preventDefault();
-          console.log(this.state)
-          console.log("Hello")
         this.props.createParcel({...this.state, price :parseInt(this.state.price)})
       }
 
@@ -35,7 +33,7 @@ export class CreateParcelContainer extends Component {
     <div >
           <div className="card grey lighten-5 z-depth-1">
             <div className="card-content">
-              <span className="card-title">Create Parcel</span>
+              <span className="card-title center">Create Parcel</span>
             </div>
             <div className="card-action">
             <CreateParcel
@@ -61,8 +59,6 @@ export const mapStateToProps = state => {
     return state;
   };
 
-
-        
 export const mapDispatchToProps = dispatch => ({
     createParcel: (data) => {
       /* istanbul ignore next */   

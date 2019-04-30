@@ -8,8 +8,6 @@ const headers = {
   }
 
  const createParcelAction = Data => {
-    console.log('_____________________',Data)
-  return dispatch => {
     return axios
       .post("https://wali-sendit.herokuapp.com/v2/api/parcels", Data, {
         headers :{accept: "application/json",
@@ -35,6 +33,6 @@ const headers = {
         });
       });
   };
-};
+
 
  export default createParcelAction;

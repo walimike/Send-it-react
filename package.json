@@ -1,5 +1,5 @@
 {
-  "name": "ah-groot-frontend",
+  "name": "send-it-react",
   "version": "0.0.1",
   "description": "A Social platform for the creative at heart.",
   "main": "index.js",
@@ -7,15 +7,14 @@
     "node": "10.15.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
     "lint": "eslint .",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --collectCoverage",
     "coverage": "react-scripts test -u --env=jsdom --coverage --coveragePathIgnorePatterns=src/index.js",
-    "heroku-postbuild": "npm run build ",
-    "heroku-prebuild": "npm install "
+    "heroku-postbuild": "npm run build "
   },
   "heroku-run-build-script": true,
   "repository": {
@@ -67,22 +66,24 @@
     "@babel/runtime": "^7.4.3"
   },
   "dependencies": {
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.11.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-redux": "^6.0.1",
-    "react-router-dom": "^5.0.0",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "axios": "^0.18.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "express": "^4.16.4",
     "materialize-css": "^1.0.0-rc.2",
+    "npm": "^6.9.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-loader": "^2.4.5",
+    "react-redux": "^6.0.1",
     "react-responsive-modal": "^3.6.0",
+    "react-router-dom": "^5.0.0",
     "react-test-renderer": "^16.8.6",
     "react-toastify": "^5.0.0",
+    "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
-    "redux-mock-store": "^1.5.3"
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0"
   }
 }
