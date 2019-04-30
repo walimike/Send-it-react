@@ -23,7 +23,7 @@ class Carousel extends Component {
           </div>
         </div>
         <a className="carousel-item" href="#three!">
-          <img src="../../assets/images/101-express-courier.jpg" />
+          <img src="http://indailytimes.com/wp-content/uploads/2019/04/Parcel-Delivery-Market.jpg" />
         </a>
       </div>
     );
