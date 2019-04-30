@@ -8,6 +8,8 @@ SendIT provides courier quotes based on weight categories.
 [![Maintainability](https://api.codeclimate.com/v1/badges/01fbb7dee06ee331ab58/maintainability)](https://codeclimate.com/github/walimike/Send-it-react/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/01fbb7dee06ee331ab58/test_coverage)](https://codeclimate.com/github/walimike/Send-it-react/test_coverage)
 
+### UI Demo
+UI demo of Author's Haven can be found [here](https://sendit-fe.herokuapp.com/)
 
 ### Main features
 Users can create an account and log in.
