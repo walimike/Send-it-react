@@ -80,7 +80,7 @@
     "materialize-css": "^1.0.0-rc.2",
     "react-loader": "^2.4.5",
     "react-responsive-modal": "^3.6.0",
-    "react-test-renderer": "^16.8.6",
+    "react-test-renderer": "^16.13.0",
     "react-toastify": "^5.0.0",
     "redux-devtools-extension": "^2.13.8",
     "redux-mock-store": "^1.5.3"
